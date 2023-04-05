@@ -1,0 +1,125 @@
+.SelectPlan {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .SelectPlan button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    border-radius: 12px;
+  }
+  
+  .ButtonText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 6rem;
+    text-align: left;
+  }
+  
+  .SelectPlan input {
+    display: none;
+    width: 100%;
+  }
+  
+  .SelectPlan span {
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(213, 96%, 18%);
+  }
+  
+  .SelectPlan p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .OptionsAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 12px;
+  }
+  
+  .OptionsSpan {
+      font-weight: bold;
+      color: hsl(213, 96%, 18%);
+  }
+
+  .Switch input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .Switch {
+    display: inline-block;
+    font-size: 20px;
+    height: 1em;
+    width: 2em;
+    background: hsl(213, 96%, 18%);
+    border-radius: 1em;
+  }
+  
+  .Switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #fff;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+  }
+  
+  .Switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  
+  .Discount {
+    font-size: 16px;
+    color: hsl(243, 100%, 62%);
+  }
+
+
+  @media (min-width: 1000px) {
+
+    .SelectPlan {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .SelectPlan button{
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .buttonImg {
+      text-align: left;
+      width: 100%;
+    }
+
+    .SelectPlan span {
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(73, 64, 121);
+    }
+    
+    .SelectPlan p {
+      font-size: 14px;
+      margin: 0;
+    }
+  }

@@ -1,0 +1,49 @@
+.ThirdStepContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0 0.8rem;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.CheckBox {
+  width: 1rem;
+  height: 1rem;
+}
+
+.CheckBox:checked {
+  accent-color: hsl(243, 100%, 62%);
+}
+
+.InputText span {
+  font-weight: bold;
+  color: hsl(213, 96%, 18%);
+}
+
+.InputText p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.Price {
+  font-size: 14px;
+  color: hsl(243, 100%, 62%)
+}
+
+
+@media (min-width: 1000px) {
+  .Container {
+    gap: 15px
+  }
+  .InputText {
+    width: 90%;
+  }
+}

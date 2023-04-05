@@ -1,0 +1,81 @@
+.chosenContainer {
+    background-color: rgba(228, 228, 244, 0.341);
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.chosenOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid rgb(167, 164, 164);
+}
+
+.chosenProgram {
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenProgramName {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(18, 18, 91);
+}
+
+.changeProgramBtn {
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 0;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+}
+
+.chosenProgramPrice {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(213, 96%, 18%);
+}
+
+.chosenExtras {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: hsl(231, 11%, 63%);
+  padding-top: 10px;
+}
+
+.chosenExtrasName {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chosenExtrasPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(213, 96%, 18%);
+}
+
+.TotalParagraph {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(231, 11%, 63%);
+}
+
+.TotalPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(243, 100%, 62%);
+}
+
+.TotalPrice p {
+  margin: 0;
+}

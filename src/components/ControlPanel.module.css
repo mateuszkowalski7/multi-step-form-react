@@ -1,0 +1,28 @@
+.ControlContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+    background-color: white;
+}
+
+.BackBtn {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+
+.NextBtn {
+    font-size: 14px;
+    height: 2.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+

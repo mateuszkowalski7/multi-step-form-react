@@ -1,0 +1,21 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 18rem;
+  height: auto;
+  margin: 6rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.Container p {
+  font-size: 16px;
+}
+
+@media (min-width: 1440px) {
+  .Container {
+    width: auto;
+  }
+}

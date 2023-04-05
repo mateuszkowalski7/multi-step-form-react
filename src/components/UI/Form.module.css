@@ -1,0 +1,97 @@
+.GlobalContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 18rem;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.PageNumber {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.PageNumber .Number {
+  height: 2rem;
+  line-height: 2rem;
+  width: 2rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+
+.NumberContent {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .Test {
+    display: flex;
+    position: relative;
+    gap: 5rem;
+    border-radius: 12px;
+    width: 55rem;
+    height: 35rem;
+    background-color: white;
+    padding: 1rem;
+  }
+
+  .GlobalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 27rem;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+  }
+
+  .PageNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("../../assets/desktopBg.svg");
+    gap: 1rem;
+    width: 15rem;
+    padding: 2rem 1rem;
+    border-radius: 12px;
+  }
+
+  .NumberContainer {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+  }
+
+  .test1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .NumberContent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+  }
+
+  .NumberContent span {
+    font-size: 14px;
+    color: rgb(157, 151, 151);
+  }
+  .NumberContent p {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+  }
+}
